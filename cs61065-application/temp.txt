@@ -1,0 +1,14 @@
+    console.log('[*] Connecting to gateway for Org2')
+    const gateway2 = new Gateway();
+    await gateway2.connect(
+        ccp2,
+        {
+            wallet2,
+            identity: 'appUser',
+            discovery: {
+                enabled: true,
+                asLocalhost: true
+            }
+        }
+    );
+    console.log('[+] Connected to gateway for Org2')

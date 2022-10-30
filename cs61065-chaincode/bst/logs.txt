@@ -1,0 +1,2 @@
+2022/10/30 19:11:01 failed to start chaincode. %v 'CORE_CHAINCODE_ID_NAME' must be set
+2022/10/30 19:11:29 failed to start chaincode. %v 'CORE_CHAINCODE_ID_NAME' must be set
